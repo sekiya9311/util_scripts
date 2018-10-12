@@ -33,6 +33,6 @@ command+=" --exclude-from=${src_dir}.gitignore"
 echo "command: ${command}"
 
 # exec command
-command
+${command}
 
 exit 0
