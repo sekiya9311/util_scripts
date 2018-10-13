@@ -29,6 +29,9 @@ command+=" ${src_dir} ${con_name}:${dst_dir}"
 # repo/.gitignore check
 command+=" --exclude-from=${src_dir}.gitignore"
 
+# ignore .git directory
+command+=" --exclude=.git/"
+
 # print command
 echo "command: ${command}"
 

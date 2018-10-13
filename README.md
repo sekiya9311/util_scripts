@@ -4,7 +4,7 @@
 # 詳細
 
 ## rsync-git-dir.sh  
-rsyncでsshを使用してgit repositoryをリモートに転送します．「.gitignore」に該当するファイルは省きます．
+rsyncでsshを使用してgit repositoryをリモートに転送します．「.gitignore」に該当するファイル，「.gitディレクトリ」は省きます．
 ~~~:bash
 # example
 ./rsync-git-dir.sh connection src dst
